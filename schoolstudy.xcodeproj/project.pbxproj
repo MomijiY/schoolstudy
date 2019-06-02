@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79012EC02278642E008BA657 /* TextviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79012EBF2278642E008BA657 /* TextviewViewController.swift */; };
 		79765A8B226B068E00126B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79765A8A226B068E00126B53 /* AppDelegate.swift */; };
 		79765A8D226B068E00126B53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79765A8C226B068E00126B53 /* ViewController.swift */; };
 		79765A90226B068E00126B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79765A8E226B068E00126B53 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		79765A95226B068F00126B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79765A93226B068F00126B53 /* LaunchScreen.storyboard */; };
 		79765AA0226B068F00126B53 /* schoolstudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79765A9F226B068F00126B53 /* schoolstudyTests.swift */; };
 		79765AAB226B068F00126B53 /* schoolstudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79765AAA226B068F00126B53 /* schoolstudyUITests.swift */; };
+		79AED0BD226C702200104940 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AED0BC226C702200104940 /* unchecked.png */; };
+		79AED0BF226C702900104940 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AED0BE226C702900104940 /* checked.png */; };
+		79AED0C5226C72DE00104940 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED0C4226C72DE00104940 /* AddViewController.swift */; };
+		79AED0C9226C86CE00104940 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED0C8226C86CE00104940 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79012EBF2278642E008BA657 /* TextviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextviewViewController.swift; sourceTree = "<group>"; };
 		79765A87226B068E00126B53 /* schoolstudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schoolstudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79765A8A226B068E00126B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79765A8C226B068E00126B53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		79765AA6226B068F00126B53 /* schoolstudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schoolstudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79765AAA226B068F00126B53 /* schoolstudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolstudyUITests.swift; sourceTree = "<group>"; };
 		79765AAC226B068F00126B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AED0BC226C702200104940 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		79AED0BE226C702900104940 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		79AED0C4226C72DE00104940 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		79AED0C8226C86CE00104940 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		79765A89226B068E00126B53 /* schoolstudy */ = {
 			isa = PBXGroup;
 			children = (
+				79AED0BC226C702200104940 /* unchecked.png */,
+				79AED0BE226C702900104940 /* checked.png */,
 				79765A8A226B068E00126B53 /* AppDelegate.swift */,
 				79765A8C226B068E00126B53 /* ViewController.swift */,
+				79765A96226B068F00126B53 /* Info.plist */,
 				79765A8E226B068E00126B53 /* Main.storyboard */,
 				79765A91226B068F00126B53 /* Assets.xcassets */,
 				79765A93226B068F00126B53 /* LaunchScreen.storyboard */,
-				79765A96226B068F00126B53 /* Info.plist */,
+				79AED0C4226C72DE00104940 /* AddViewController.swift */,
+				79AED0C8226C86CE00104940 /* CustomTabBar.swift */,
+				79012EBF2278642E008BA657 /* TextviewViewController.swift */,
 			);
 			path = schoolstudy;
 			sourceTree = "<group>";
@@ -231,7 +246,9 @@
 			files = (
 				79765A95226B068F00126B53 /* LaunchScreen.storyboard in Resources */,
 				79765A92226B068F00126B53 /* Assets.xcassets in Resources */,
+				79AED0BF226C702900104940 /* checked.png in Resources */,
 				79765A90226B068E00126B53 /* Main.storyboard in Resources */,
+				79AED0BD226C702200104940 /* unchecked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79012EC02278642E008BA657 /* TextviewViewController.swift in Sources */,
+				79AED0C9226C86CE00104940 /* CustomTabBar.swift in Sources */,
 				79765A8D226B068E00126B53 /* ViewController.swift in Sources */,
 				79765A8B226B068E00126B53 /* AppDelegate.swift in Sources */,
+				79AED0C5226C72DE00104940 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG32J57MBX;
 				INFOPLIST_FILE = schoolstudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG32J57MBX;
 				INFOPLIST_FILE = schoolstudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
